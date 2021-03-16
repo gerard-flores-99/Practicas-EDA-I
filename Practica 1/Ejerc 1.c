@@ -18,7 +18,7 @@ int main(){
 	p = &a[10]; //Se iguala el apuntador al arreglo
 	printf("\n\nLas direcciones de memoria de los números son: ");
 	for (int i=0; i<10; i++){ //La "i" es la posición e irá aumentando conforme se vayan ingresando los no.
-		printf("\n%p",&a[i]); //Imrpime la dirección de memoria de cada elemento del arreglo
+		printf("\n%p",&a[i]); //Imprime la dirección de memoria de cada elemento del arreglo
 	}
 
 	return 0; //No devuelve nada
